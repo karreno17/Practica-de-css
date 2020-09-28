@@ -1,0 +1,89 @@
+body {
+		font-family: Arial, sans-serif;
+	}
+	aside {
+		float: left;
+		width: 40%;
+		clear: both;
+	}
+	section {
+		float: left;
+		width: 60%;
+	}
+	#formacionAcademica {
+		width: 100%;
+	}
+	#experienciaLaboral {
+		width: 100%;
+	}
+}
+
+h1 {
+	color: red;
+}
+
+nav ul{
+	padding: 0;
+}
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a{
+	font-family: Arial;
+	font-size: 11px;
+	text-decoration: none;
+	float: left;
+	padding: 10px;
+	background-color: #2175bc;
+	color: #fff;
+}
+
+nav ul li a:hover{
+	background-color: #2586d7;
+	margin-top: -2px;
+	padding-bottom: 12px;
+}
+
+article li {
+	color: #00F;
+}
+
+article li string {
+	color: #000;
+}
+
+/*Maquetando la estructura de la página web, entre el aside y section*/
+
+aside {
+	float: left;
+	width: 30%;
+	clear: both;
+}
+
+section {
+	float: left;
+	width: 70%;
+}
+
+/* Maquetando la estructura de los artículos*/
+
+#formacionAcademica {
+	float: left;
+	width: 50%;
+}
+
+#experienciaLaboral {
+	float: left;
+	width: 50%;
+}
+
+article li.actual {
+	font-weight: bolder;
+	font-size: 1.2 em;
+}
+
+footer{
+	clear: both;
+}
